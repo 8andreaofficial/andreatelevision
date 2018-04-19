@@ -1,6 +1,48 @@
 <html>
 <title>La diretta di AndreaTelevision<title>
-<body scroll="no" style="overflow: hidden">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script><body scroll="no" style="overflow: hidden">
 <iframe src="https://tubemote.com/andreatelevisionita/" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">Diretta non disponibile</iframe>
+<div id="feedback">
+			<a href="#popup1">Quick Enquiry</a>
+		</div>
+
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+    <div class="div1" style="background:#fff">
+		
+		<a class="close" href="#">×</a>
+     
+		<div class="content" id="quickenquire">
+        <h3 style="text-align:center">Send Enquiry</h3>
+		<form action="#">
+            <label for="name">Name</label>
+   <input type="text" id="name" name="name">
+        <label for="email">Email Id</label>
+    <input type="email" id="email" name="email">
+    
+        
+  <label for="comment">Your Message</label>
+   <textarea></textarea>
+   
+
+    <label for="contact">Contact No</label>
+    <input type="text" id="contact" name="contact">
+
+
+    
+  <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <input type="submit" value="Submit">
+  </form>
+		</div>
+        </div>
 </body>
 </html>
